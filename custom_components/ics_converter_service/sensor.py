@@ -184,7 +184,7 @@ class AbfallSensor(Entity):
                     printtext = "morgen"
                 else:
                     printtext = 'in {} Tagen'.format(self._state)
-                self._attributes['display_text'] = self._state.strftime('{}, %d.%m.%Y ({})').format(weekdays[self._state.weekday()], printtext)
+                self._attributes['display_text'] = date.strftime('{}, %d.%m.%Y ({})').format(weekdays[date.weekday()], printtext)
                 self._attributes['display_text_short'] = printtext
         except ValueError:
             self._state = None
