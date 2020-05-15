@@ -1,8 +1,6 @@
 # ics_converter_service_component
 Custom Home Assistant Component for accessing ICS Converter Service API.
 
-If you found this repository, chances are you already know your waste collection company uses the abfall.io API.
-
 Be aware that this not a plug and play component. Please note that the URL in the sensor.py must be modified!
 
 ## How to install and use
