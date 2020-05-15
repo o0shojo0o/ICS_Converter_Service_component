@@ -1,0 +1,9 @@
+{
+  "domain": "ics_converter_service",
+  "name": "ICS Converter Service",
+  "documentation": "https://github.com/o0shojo0o/ics_converter_service_component",
+  "dependencies": [],
+  "codeowners": ["@o0shojo0o"],
+  "requirements": []
+}
+
