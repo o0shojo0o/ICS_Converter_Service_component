@@ -19,10 +19,10 @@ MIN_TIME_BETWEEN_UPDATES = timedelta(days=1)
 SENSOR_PREFIX = 'Waste '
 
 SENSOR_TYPES = {
-    'hausmuell': ['Hausmüll', '', 'mdi:recycle'],
-    'gelbersack': ['Gelber Sack', '', 'mdi:recycle'],
-    'papiertonne': ['Papiertonne', '', 'mdi:recycle'],
-    'biotonne': ['Bio-Tonne', '', 'mdi:recycle'],
+    'hausmuell': ['Hausmüll', '', 'mdi:trash-can-outline'],
+    'gelbersack': ['Gelber Sack', '', 'mdi:trash-can-outline'],
+    'papiertonne': ['Papiertonne', '', 'mdi:trash-can-outline'],
+    'biotonne': ['Bio-Tonne', '', 'mdi:trash-can-outline'],
 }
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
