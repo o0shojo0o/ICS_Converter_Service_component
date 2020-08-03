@@ -15,7 +15,7 @@ Add the sensors to your configuration.yaml:
 
     sensor:
         - platform: ics_converter_service
-            resources:
+          resources:
             - gelbersack
             - hausmuell
             - papiertonne
